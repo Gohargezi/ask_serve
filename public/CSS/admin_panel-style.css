@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Vazir', sans-serif;
+  background-color: #f0f7ff;
+  margin: 0;
+  padding: 40px 10px;
+  justify-content: center;
+}
+
+.cards-container {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin: 1.5rem auto ;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h3 {
+  color: #0a316e;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.card p {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height: 1.8;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+  width: 80%;
+}
+
+.btn-accept {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-accept:hover {
+  background-color: #218838;
+}
+
+.btn-reject {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-reject:hover {
+  background-color: #c82333;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* استایل عمومی دکمه */
+.btn, .btn:link, .btn:visited {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none; /* حذف زیرخط لینک */
+  color: white;
+}
+
+/* دکمه تأیید */
+.btn-accept {
+  background-color: #28a745;
+}
+
+.btn-accept:hover {
+  background-color: #218838;
+}
+
+/* دکمه رد */
+.btn-reject {
+  background-color: #dc3545;
+}
+
+.btn-reject:hover {
+  background-color: #c82333;
+}
+
+/* کانتینر دکمه‌ها */
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}

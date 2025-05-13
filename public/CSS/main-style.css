@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Vazir', sans-serif;
+    background-color: #ffffff;
+    color: #003366;
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  h1, h2 {
+    color: #003366;
+  }
+
+  .intro {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content
+  }
+
+  .intro-image {
+
+    max-width: 60%;
+    height: auto;
+    border-radius: 12px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+
+  .org-card {
+    background-color: #f0f8ff;
+    border: 1px solid #cce;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    max-width: 600px;
+    font-family: 'Vazir', sans-serif;
+    color: #003366;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin: 1.5rem auto;
+  }
+
+  .org-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+  }
+
+  .org-description {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+
+  .org-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #004488;
+  }
+
+  .org-meta span strong {
+    color: #002244;
+  }

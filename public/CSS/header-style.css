@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Vazir', sans-serif;
+    background-color: #ffffff;
+    color: #003366;
+    overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: #f0f8ff;
+    border-bottom: 1px solid #cce;
+    position: relative;
+    z-index: 10;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #003366;
+  }
+
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .menu-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: #003366;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+  }
+
+  nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #003366;
+    font-size: 1rem;
+  }
+
+  /* موبایل */
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: flex;
+    }
+
+    nav {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: #f0f8ff;
+      flex-direction: column;
+      width: 100%;
+      display: none;
+      padding: 1rem;
+      border-top: 1px solid #cce;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    nav.active {
+      display: flex;
+    }
+  }
